@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
+    color: #173624;
+}
+
+li {
+    list-style-type: none; 
+}
+a {
+    text-decoration: none;
+}
+
+.contenedor{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.contenedor img{
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+}
+
+.contenedor a{
+    color: #173624;
+    padding: 10px;
+}
+.contenedor a:hover{
+    text-decoration: underline;
+}
+
+.gracias{
+    text-align: center;
+    padding: 100px;
+}
+
+
